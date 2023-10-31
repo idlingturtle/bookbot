@@ -1,6 +1,6 @@
 book = "./books/frankenstein.txt"
 with open(book) as f:
-    contents =f.read()
+    contents = f.read()
 
 words = contents.split()
 word_count = 0
